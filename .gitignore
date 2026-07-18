@@ -1,0 +1,24 @@
+# Temporary files
+tmp/
+*.tmp
+*.temp
+
+# Generated videos (large files, not tracked)
+projects/饼干碎了_ItsOkay/03_视频片段/*.mp4
+projects/饼干碎了_ItsOkay/03_视频片段/子分镜/
+
+# Environment files
+.env
+
+# OS files
+.DS_Store
+__pycache__/
+
+# IDE
+.vscode/
+.idea/
+
+# Ignore all key frames except validated ones
+# Only track specific validated key frames
+!projects/饼干碎了_ItsOkay/02_分镜图/关键帧/001_Mommy_Leo_递饼干_首帧_v1.png
+!projects/饼干碎了_ItsOkay/02_分镜图/关键帧/002_Leo_掉饼干_首帧_v1.png
