@@ -125,14 +125,14 @@ frame_rate: 30
 
 **台词**：It's okay, sweetie. You're sad.
 
-**镜头**：中景（与 001 构图一致，使用 `001_Mommy_Leo_递饼干_首帧_v4.png` 为参考）
+**镜头**：中景（与 001 构图一致，首帧已是蹲下姿态）
 
 **首帧图**：`004_首帧_蹲下安慰.png`（待生成）
 
 **首帧图提示词**：
 
 ```
-Wide shot, mother squatting beside high chair on right side of frame, both hands gently resting on boy's shoulders. Mother has warm empathetic expression, eyebrows slightly raised, gentle smile. Toddler boy in high chair looking at mother with tearful eyes, crying expression softening. Same kitchen scene as 001: wooden cabinets, stainless steel appliances, warm pendant lighting. Mother wearing white off-shoulder top with yellow flower skirt, long dark wavy hair. Boy wearing blue dinosaur t-shirt, white pants. Pixar style, Disney style, 3D character render, C4D render, Blender 3D, ultra-detailed textures, soft cinematic lighting, warm cozy atmosphere, subsurface scattering, 8k resolution, masterpiece, clay style, 16:9 horizontal composition
+Wide shot, mother already squatting beside high chair on right side of frame, both hands gently resting on boy's shoulders. Mother has warm empathetic expression, eyebrows slightly raised, gentle smile. Toddler boy in high chair looking at mother with tearful eyes, crying expression softening. Same kitchen scene as 001: wooden cabinets, stainless steel appliances, warm pendant lighting. Mother wearing white off-shoulder top with yellow flower skirt, long dark wavy hair. Boy wearing blue dinosaur t-shirt, white pants. Pixar style, Disney style, 3D character render, C4D render, Blender 3D, ultra-detailed textures, soft cinematic lighting, warm cozy atmosphere, subsurface scattering, 8k resolution, masterpiece, clay style, 16:9 horizontal composition
 ```
 
 **尾帧图 / 005 首帧图**：`005_首帧_指向新饼干.png`（待生成，与 005 共用）
@@ -151,9 +151,8 @@ image: [首帧图 URL]
 prompt: >
   严格遵循参考图像，除微小动作外不得改变角色的面部特征、发型、服装或体型。柔和的电影级光影，3D黏土风格角色，细腻的皮肤纹理，SSS次表面散射，自然布料质感；固定中景机位，位于餐桌中心略高于桌面高度，整个过程中机位、角度、景别完全锁定不变，无缩放、无推拉、无镜头抖动、无切镜；温暖明亮充满爱的早晨氛围；Pixar风格、Disney风格、C4D渲染、Blender 3D、黏土风格、杰作、8k分辨率。无背景音乐。
 
-  [0.0-2.0s：Mommy 身体蹲下，面部微笑，嘴唇动说 "It's okay, sweetie."，双手轻抚 Leo 肩膀。Leo 身体完全静止，表情从大哭转为委屈，眼睛看向 Mommy，头部微微抬起。]
-  [2.0-4.0s：Mommy 身体完全静止，面部保持微笑，嘴唇动说 "You're sad."，双手持续轻抚 Leo 肩膀。Leo 身体完全静止，表情从委屈转为平静，眼泪停止，头部微微低下。]
-  [4.0-6.0s：Mommy 身体完全静止，面部保持微笑，右手持续轻抚 Leo 肩膀。Leo 身体完全静止，表情平静，呼吸微微起伏，头部微微转动。]
+  [0.0-3.0s：Mommy 身体完全静止（已蹲下），面部微笑，嘴唇动说 "It's okay, sweetie."，双手持续轻抚 Leo 肩膀。Leo 身体完全静止，表情从大哭转为委屈，眼睛看向 Mommy，头部微微抬起。]
+  [3.0-6.0s：Mommy 身体完全静止，面部保持微笑，嘴唇动说 "You're sad."，双手持续轻抚 Leo 肩膀。Leo 身体完全静止，表情从委屈转为平静，眼泪停止，呼吸微微起伏。]
 negative_prompt: >
   相机移动、画面偏移、机位变化、角色瞬移；角色面部特征、发型、服装的改变；口型与对话不匹配；面部扭曲变形、面部特征坍塌；卡通、动漫、手绘、油画、模糊和低质量、脏色、强光过曝；水印文字、额外杂物、肢体畸形、布料穿透模型；字幕、文字、对话浮层或对话框出现在画面中；角色突然变大。无背景音乐。
   相机移动、缩放、平移、倾斜、抖动、变形、面部变形、多余肢体、变形手部、不良解剖、卡通、动漫、2D、素描、油画、模糊、低质量、水印、文字、字幕、气泡、尺寸突变、角色直起腰、角色离开座位、角色低头、角色闭眼
@@ -209,22 +208,22 @@ frame_rate: 30
 
 **台词**：Yummy!
 
-**镜头**：特写（聚焦 Mommy 和 Leo 的面部表情对比）
+**镜头**：特写（双人同框，构图稳定，避免大幅表情切换导致漂移）
 
 **首帧图**：`006_首帧_吃饼干.png`（待生成，以 005 尾帧为参考，镜头推进到面部特写）
 
 **首帧图提示词**：
 
 ```
-Close-up two-shot, mother on left, toddler boy on right, both faces filling most of frame. Mother taking a big bite of golden cookie, eyes closed in enjoyment, head slightly swaying side to side. Boy on right watching mother with happy excited expression, mouth curved into big smile, right hand holding cookie. Shallow depth of field with heavily blurred kitchen background. Warm morning light creating soft highlights on faces. Pixar style, Disney style, 3D character render, C4D render, Blender 3D, ultra-detailed textures, soft cinematic lighting, warm cozy atmosphere, subsurface scattering, 8k resolution, masterpiece, clay style, 16:9 horizontal composition
+Close-up two-shot, mother on left, toddler boy on right, both faces clearly visible but not overlapping. Mother holding a golden cookie near her mouth, eyes closed in enjoyment, head slightly tilted back. Boy on right looking at mother with a calm happy smile, right hand holding a cookie near his lap. Shallow depth of field with heavily blurred kitchen background. Warm morning light creating soft highlights on faces. Stable composition, no extreme expressions yet. Pixar style, Disney style, 3D character render, C4D render, Blender 3D, ultra-detailed textures, soft cinematic lighting, warm cozy atmosphere, subsurface scattering, 8k resolution, masterpiece, clay style, 16:9 horizontal composition
 ```
 
-**尾帧图**：`007_首帧_递纸巾.png`（待生成，与 007 首帧不同）
+**尾帧图**：`006_尾帧_开心.png`（待生成，与 007 首帧不同）
 
 **尾帧图提示词**：
 
 ```
-Close-up two-shot, mother on left, toddler boy on right, both faces filling most of frame. Mother looking at boy with proud happy expression, gentle smile, right hand holding cookie half-eaten. Boy on right laughing happily, eyes crinkled with joy, mouth open in laughter, right hand holding cookie. Shallow depth of field with heavily blurred kitchen background. Warm morning light creating soft highlights on faces. Pixar style, Disney style, 3D character render, C4D render, Blender 3D, ultra-detailed textures, soft cinematic lighting, warm cozy atmosphere, subsurface scattering, 8k resolution, masterpiece, clay style, 16:9 horizontal composition
+Close-up two-shot, mother on left, toddler boy on right, both faces clearly visible. Mother looking at boy with a proud happy expression, gentle smile, right hand holding cookie half-eaten. Boy on right smiling broadly, eyes crinkled with joy, right hand holding cookie. Both characters remain in their positions, minimal movement. Shallow depth of field with heavily blurred kitchen background. Warm morning light. Pixar style, Disney style, 3D character render, C4D render, Blender 3D, ultra-detailed textures, soft cinematic lighting, warm cozy atmosphere, subsurface scattering, 8k resolution, masterpiece, clay style, 16:9 horizontal composition
 ```
 
 **视频提示词**：
@@ -235,9 +234,8 @@ image: [首帧图 URL]
 prompt: >
   严格遵循参考图像，除微小动作外不得改变角色的面部特征、发型、服装或体型。柔和的电影级光影，3D黏土风格角色，细腻的皮肤纹理，SSS次表面散射，自然布料质感；固定近景机位，位于两人面部正前方，整个过程中机位、角度、景别完全锁定不变，无缩放、无推拉、无镜头抖动、无切镜；温暖明亮充满爱的早晨氛围；Pixar风格、Disney风格、C4D渲染、Blender 3D、黏土风格、杰作、8k分辨率。无背景音乐。
 
-  [0.0-1.5s：Mommy 咬了一大口饼干，面部做超享受的表情，眼睛眯成一条缝，头微微摇晃，嘴唇动说 "Yummy!" 拖长音。Leo 身体完全静止，表情破涕为笑，嘴角上扬。]
-  [1.5-3.5s：Mommy 身体完全静止，面部保持享受表情，头继续微微摇晃。Leo 身体完全静止，表情开心，伸手拿自己手中的饼干。]
-  [3.5-5.0s：Mommy 身体完全静止，面部保持微笑。Leo 身体完全静止，表情开心满足，呼吸微微起伏。]
+  [0.0-2.0s：Mommy 咬了一口饼干，面部做享受的表情，眼睛眯起，头微微摇晃，嘴唇动说 "Yummy!"。Leo 身体完全静止，表情开心，看着 Mommy。]
+  [2.0-5.0s：Mommy 身体完全静止，面部保持微笑看着 Leo。Leo 身体完全静止，表情开心满足，呼吸微微起伏。]
 negative_prompt: >
   相机移动、画面偏移、机位变化、角色瞬移；角色面部特征、发型、服装的改变；口型与对话不匹配；面部扭曲变形、面部特征坍塌；卡通、动漫、手绘、油画、模糊和低质量、脏色、强光过曝；水印文字、额外杂物、肢体畸形、布料穿透模型；字幕、文字、对话浮层或对话框出现在画面中；角色突然变大。无背景音乐。
   相机移动、缩放、平移、倾斜、抖动、变形、面部变形、多余肢体、变形手部、不良解剖、卡通、动漫、2D、素描、油画、模糊、低质量、水印、文字、字幕、气泡、尺寸突变、角色直起腰、角色离开座位、角色低头、角色闭眼
@@ -297,22 +295,22 @@ frame_rate: 30
 
 **台词**：Bye-bye crumbs!
 
-**镜头**：特写（聚焦 Leo 的动作和成就感表情）
+**镜头**：中景（与 001 构图一致，包含右侧垃圾桶）
 
 **首帧图**：`008_首帧_擦碎屑.png`（待生成）
 
 **首帧图提示词**：
 
 ```
-Close-up insert shot, camera zoomed in tightly on toddler boy's face and upper body. Boy sitting in high chair, right hand holding tissue paper wiping tray surface. Boy has serious concentrated expression, eyebrows slightly furrowed, eyes focused on task. Blue dinosaur t-shirt collar visible. Shallow depth of field with heavily blurred kitchen background. Warm morning light creating soft highlights on boy's face. Pixar style, Disney style, 3D character render, C4D render, Blender 3D, ultra-detailed textures, soft cinematic lighting, warm cozy atmosphere, subsurface scattering, 8k resolution, masterpiece, clay style, 16:9 horizontal composition
+Wide shot, mother sitting beside high chair on right side of frame, both hands holding tissue paper wiping floor near the high chair base. Mother has focused cheerful expression. Toddler boy in high chair on left side, right hand holding tissue paper wiping tray surface. Boy has serious concentrated expression, eyebrows slightly furrowed, eyes focused on task. A small trash bin is visible on the floor to the right of the high chair. Same kitchen scene as 001: wooden cabinets, stainless steel appliances, warm pendant lighting. Mother wearing white off-shoulder top with yellow flower skirt, long dark wavy hair. Boy wearing blue dinosaur t-shirt, white pants. Pixar style, Disney style, 3D character render, C4D render, Blender 3D, ultra-detailed textures, soft cinematic lighting, warm cozy atmosphere, subsurface scattering, 8k resolution, masterpiece, clay style, 16:9 horizontal composition
 ```
 
-**尾帧图**：`009_首帧_击掌.png`（待生成，与 009 首帧不同）
+**尾帧图**：`008_尾帧_开心.png`（待生成，与 009 首帧不同）
 
 **尾帧图提示词**：
 
 ```
-Close-up insert shot, camera zoomed in tightly on toddler boy's face. Boy sitting in high chair, right hand holding crumpled tissue paper. Boy has proud happy expression, big smile, eyes sparkling with accomplishment. Blue dinosaur t-shirt collar visible. Shallow depth of field with heavily blurred kitchen background. Warm morning light creating soft highlights on boy's face. Pixar style, Disney style, 3D character render, C4D render, Blender 3D, ultra-detailed textures, soft cinematic lighting, warm cozy atmosphere, subsurface scattering, 8k resolution, masterpiece, clay style, 16:9 horizontal composition
+Wide shot, mother sitting beside high chair on right side of frame, both hands holding used tissue paper, looking at boy with proud happy expression. Toddler boy in high chair on left side, right hand holding crumpled tissue paper, right arm raised slightly. Boy has proud happy expression, big smile, eyes sparkling with accomplishment. Small trash bin visible on floor to the right. Same kitchen scene as 001. Mother wearing white off-shoulder top with yellow flower skirt, long dark wavy hair. Boy wearing blue dinosaur t-shirt, white pants. Pixar style, Disney style, 3D character render, C4D render, Blender 3D, ultra-detailed textures, soft cinematic lighting, warm cozy atmosphere, subsurface scattering, 8k resolution, masterpiece, clay style, 16:9 horizontal composition
 ```
 
 **视频提示词**：
@@ -321,11 +319,10 @@ Close-up insert shot, camera zoomed in tightly on toddler boy's face. Boy sittin
 model: agnes-video-v2.0
 image: [首帧图 URL]
 prompt: >
-  严格遵循参考图像，除微小动作外不得改变角色的面部特征、发型、服装或体型。柔和的电影级光影，3D黏土风格角色，细腻的皮肤纹理，SSS次表面散射，自然布料质感；固定特写机位，位于 Leo 面部正前方，整个过程中机位、角度、景别完全锁定不变，无缩放、无推拉、无镜头抖动、无切镜；温暖明亮充满爱的早晨氛围；Pixar风格、Disney风格、C4D渲染、Blender 3D、黏土风格、杰作、8k分辨率。无背景音乐。
+  严格遵循参考图像，除微小动作外不得改变角色的面部特征、发型、服装或体型。柔和的电影级光影，3D黏土风格角色，细腻的皮肤纹理，SSS次表面散射，自然布料质感；固定中景机位，位于餐桌中心略高于桌面高度，整个过程中机位、角度、景别完全锁定不变，无缩放、无推拉、无镜头抖动、无切镜；温暖明亮充满爱的早晨氛围；Pixar风格、Disney风格、C4D渲染、Blender 3D、黏土风格、杰作、8k分辨率。无背景音乐。
 
-  [0.0-2.0s：Leo 身体完全静止，右手持纸巾擦拭餐盘，嘴唇动说 "Bye-bye crumbs!"，面部保持认真表情。]
-  [2.0-4.0s：Leo 身体完全静止，右手将纸巾丢进垃圾桶（动作完成），表情从认真转为开心。]
-  [4.0-5.0s：Leo 身体完全静止，面部保持开心笑容，呼吸微微起伏。]
+  [0.0-2.0s：Leo 身体完全静止，右手持纸巾擦拭餐盘，嘴唇动说 "Bye-bye crumbs!"，面部保持认真表情。Mommy 身体完全静止，双手持纸巾擦拭地面。]
+  [2.0-5.0s：Leo 身体完全静止，右手将纸巾揉成一团，表情从认真转为开心。Mommy 身体完全静止，面部保持微笑看着 Leo。]
 negative_prompt: >
   相机移动、画面偏移、机位变化、角色瞬移；角色面部特征、发型、服装的改变；口型与对话不匹配；面部扭曲变形、面部特征坍塌；卡通、动漫、手绘、油画、模糊和低质量、脏色、强光过曝；水印文字、额外杂物、肢体畸形、布料穿透模型；字幕、文字、对话浮层或对话框出现在画面中；角色突然变大。无背景音乐。
   相机移动、缩放、平移、倾斜、抖动、变形、面部变形、多余肢体、变形手部、不良解剖、卡通、动漫、2D、素描、油画、模糊、低质量、水印、文字、字幕、气泡、尺寸突变、角色直起腰、角色离开座位、角色低头、角色闭眼
