@@ -66,8 +66,9 @@ image: [首帧图 URL]
 prompt: >
   严格遵循参考图像，除微小动作外不得改变角色的面部特征、发型、服装或体型。柔和的电影级光影，3D黏土风格角色，细腻的皮肤纹理，SSS次表面散射，自然布料质感；固定特写机位，位于高脚椅餐盘上方略偏侧角度，整个过程中机位、角度、景别完全锁定不变，无缩放、无推拉、无镜头抖动、无切镜；温暖明亮充满爱的早晨氛围；Pixar风格、Disney风格、C4D渲染、Blender 3D、黏土风格、杰作、8k分辨率。无背景音乐。
 
-  [0.0-1.5s：Mommy 左手持饼干完全静止，饼干清晰对焦。Leo 右手完全静止，手指微微张开。背景强虚化。]
-  [1.5-3.0s：饼干从 Mommy 手中掉落，下落过程中。Mommy 手指微微松开。Leo 右手保持静止。背景强虚化。]
+  [0.0-0.5s：Mommy 左手持饼干完全静止，面部微笑，嘴唇动说 "Drop!"。Leo 右手完全静止，手指微微张开。背景强虚化。]
+  [0.5-2.0s：饼干从 Mommy 手中掉落，下落过程中。Mommy 手指微微松开。Leo 右手保持静止。背景强虚化。]
+  [2.0-3.0s：饼干已落在餐盘上摔碎。Mommy 左手保持静止。Leo 右手保持静止。背景强虚化。]
 negative_prompt: >
   相机移动、画面偏移、机位变化、角色瞬移；角色面部特征、发型、服装的改变；口型与对话不匹配；面部扭曲变形、面部特征坍塌；卡通、动漫、手绘、油画、模糊和低质量、脏色、强光过曝；水印文字、额外杂物、肢体畸形、布料穿透模型；字幕、文字、对话浮层或对话框出现在画面中；角色突然变大。无背景音乐。
   相机移动、缩放、平移、倾斜、抖动、变形、面部变形、多余肢体、变形手部、不良解剖、卡通、动漫、2D、素描、油画、模糊、低质量、水印、文字、字幕、气泡、尺寸突变、饼干悬浮冻结、角色直起腰、角色离开座位、角色低头、角色闭眼
@@ -107,9 +108,8 @@ image: [首帧图 URL]
 prompt: >
   严格遵循参考图像，除微小动作外不得改变角色的面部特征、发型、服装或体型。柔和的电影级光影，3D黏土风格角色，细腻的皮肤纹理，SSS次表面散射，自然布料质感；固定特写机位，位于 Leo 面部正前方，整个过程中机位、角度、景别完全锁定不变，无缩放、无推拉、无镜头抖动、无切镜；温暖明亮充满爱的早晨氛围；Pixar风格、Disney风格、C4D渲染、Blender 3D、黏土风格、杰作、8k分辨率。无背景音乐。
 
-  [0.0-1.5s：Leo 是2岁小男孩，面部从震惊转为大哭，眼泪流下，嘴唇动说 "Cookie broke!"，头部微微晃动。]
-  [1.5-3.0s：Leo 面部保持哭泣表情，身体微微前倾，小拳头握紧，头部微微低下。]
-  [3.0-4.0s：Leo 哭声渐弱，表情从大哭转为委屈，眼睛看向 Mommy 方向，头部微微抬起。]
+  [0.0-2.0s：Leo 是2岁小男孩，面部从震惊转为大哭，眼泪流下，嘴唇动说 "Cookie broke!"，头部微微晃动。]
+  [2.0-4.0s：Leo 面部保持哭泣表情，身体微微前倾，小拳头握紧，呼吸微微起伏。]
 negative_prompt: >
   相机移动、画面偏移、机位变化、角色瞬移；角色面部特征、发型、服装的改变；口型与对话不匹配；面部扭曲变形、面部特征坍塌；卡通、动漫、手绘、油画、模糊和低质量、脏色、强光过曝；水印文字、额外杂物、肢体畸形、布料穿透模型；字幕、文字、对话浮层或对话框出现在画面中；角色突然变大。无背景音乐。
   相机移动、缩放、平移、倾斜、抖动、变形、哭泣过度面部变形、多余肢体、变形手部、不良解剖、卡通、动漫、2D、素描、油画、模糊、低质量、水印、文字、字幕、气泡、尺寸突变、哭泣过早停止、角色直起腰、角色离开座位、角色低头、角色闭眼
@@ -345,7 +345,7 @@ frame_rate: 30
 **首帧图提示词**：
 
 ```
-Wide shot, mother sitting beside high chair on right side of frame, right hand raised for high five. Mother has proud smiling expression. Toddler boy in high chair on left side, right hand raised matching mother's hand for high five. Boy has proud happy expression, big smile. Same kitchen scene as 001. Mother wearing white off-shoulder top with yellow flower skirt, long dark wavy hair. Boy wearing blue dinosaur t-shirt, white pants. Pixar style, Disney style, 3D character render, C4D render, Blender 3D, ultra-detailed textures, soft cinematic lighting, warm cozy atmosphere, subsurface scattering, 8k resolution, masterpiece, clay style, 16:9 horizontal composition
+Wide shot, mother sitting beside high chair on right side of frame, right hand raised with thumb up in a thumbs-up gesture. Mother has proud smiling expression. Toddler boy in high chair on left side, right hand raised slightly toward mother's hand but not yet touching. Boy has proud happy expression, big smile. Same kitchen scene as 001. Mother wearing white off-shoulder top with yellow flower skirt, long dark wavy hair. Boy wearing blue dinosaur t-shirt, white pants. Pixar style, Disney style, 3D character render, C4D render, Blender 3D, ultra-detailed textures, soft cinematic lighting, warm cozy atmosphere, subsurface scattering, 8k resolution, masterpiece, clay style, 16:9 horizontal composition
 ```
 
 **尾帧图**：无（视频定格在击掌画面结束）
@@ -358,9 +358,8 @@ image: [首帧图 URL]
 prompt: >
   严格遵循参考图像，除微小动作外不得改变角色的面部特征、发型、服装或体型。柔和的电影级光影，3D黏土风格角色，细腻的皮肤纹理，SSS次表面散射，自然布料质感；固定中景机位，位于餐桌中心略高于桌面高度，整个过程中机位、角度、景别完全锁定不变，无缩放、无推拉、无镜头抖动、无切镜；温暖明亮充满爱的早晨氛围；Pixar风格、Disney风格、C4D渲染、Blender 3D、黏土风格、杰作、8k分辨率。无背景音乐。
 
-  [0.0-1.5s：Mommy 身体完全静止，面部骄傲微笑，嘴唇动说 "Good job, buddy!"，右手竖起大拇指。Leo 身体完全静止，表情开心，右手准备击掌。]
-  [1.5-3.5s：Mommy 身体完全静止，面部保持骄傲微笑，嘴唇动说 "High five!"，右手保持竖起大拇指。Leo 身体完全静止，右手抬起与 Mommy 击掌，嘴巴动说 "High five!"。]
-  [3.5-5.0s：Mommy 身体完全静止，面部保持骄傲微笑。Leo 身体完全静止，表情幸福满足，呼吸微微起伏。]
+  [0.0-2.0s：Mommy 身体完全静止，面部骄傲微笑，嘴唇动说 "Good job, buddy!"，右手竖起大拇指。Leo 身体完全静止，表情开心，右手慢慢抬起伸向 Mommy 的手。]
+  [2.0-5.0s：Mommy 身体完全静止，面部保持骄傲微笑，嘴唇动说 "High five!"，右手保持竖起大拇指。Leo 身体完全静止，右手与 Mommy 的手接近但未接触，表情幸福满足，呼吸微微起伏。]
 negative_prompt: >
   相机移动、画面偏移、机位变化、角色瞬移；角色面部特征、发型、服装的改变；口型与对话不匹配；面部扭曲变形、面部特征坍塌；卡通、动漫、手绘、油画、模糊和低质量、脏色、强光过曝；水印文字、额外杂物、肢体畸形、布料穿透模型；字幕、文字、对话浮层或对话框出现在画面中；角色突然变大。无背景音乐。
   相机移动、缩放、平移、倾斜、抖动、变形、面部变形、多余肢体、变形手部、不良解剖、卡通、动漫、2D、素描、油画、模糊、低质量、水印、文字、字幕、气泡、尺寸突变、角色直起腰、角色离开座位、角色低头、角色闭眼
