@@ -140,7 +140,7 @@ Wide shot, mother already squatting beside high chair on right side of frame, bo
 **尾帧图提示词**：
 
 ```
-Medium shot, mother sitting upright beside high chair on right side of frame, right arm extended pointing toward kitchen counter on left side of frame. Mother has cheerful encouraging expression, gentle smile. Toddler boy in high chair on left side, looking toward direction mother is pointing, expression curious and hopeful, tears dried. Same kitchen scene as 001. Mother wearing white off-shoulder top with yellow flower skirt, long dark wavy hair. Boy wearing blue dinosaur t-shirt, white pants. Pixar style, Disney style, 3D character render, C4D render, Blender 3D, ultra-detailed textures, soft cinematic lighting, warm cozy atmosphere, subsurface scattering, 8k resolution, masterpiece, clay style, 16:9 horizontal composition
+Wide shot, mother already squatting beside high chair on right side of frame, both hands gently resting on boy's shoulders. Mother has warm gentle smile, calm encouraging expression. Toddler boy in high chair looking at mother with calm happy expression, tears dried, eyes bright and hopeful. Same kitchen scene as 001 with wooden cabinets, stainless steel appliances, warm pendant lighting. Ceramic plate of whole cookies visible on table near high chair. Bright morning kitchen background. Mother wearing white off-shoulder top with yellow flower skirt, long dark wavy hair. Boy wearing blue dinosaur t-shirt, white pants. Pixar style, Disney style, 3D character render, C4D render, Blender 3D, ultra-detailed textures, soft cinematic lighting, warm cozy atmosphere, subsurface scattering, 8k resolution, masterpiece, clay style, 16:9 horizontal composition
 ```
 
 **视频提示词**：
@@ -164,35 +164,73 @@ frame_rate: 30
 
 ---
 
-## 005｜引导拿新饼干（5s）
+## 005｜引导拿新饼干（拆分为 005a + 005b）
+
+---
+
+### 005a｜伸手拿饼干（3s）⭐ 从 004 尾帧延续
 
 **台词**：Let's get a new one.
 
-**镜头**：中景（与 001 构图一致，首帧与 004 尾帧共用 `005_首帧_指向新饼干.png`）
+**镜头**：中景（与 001/004 构图一致）
 
-**首帧图 / 004 尾帧图**：`005_首帧_指向新饼干.png`（待生成）
+**首帧图**：`005a_首帧_蹲下安慰.png`（与 004 尾帧共用 `004_尾帧_安慰平静_v1.png`）
 
-**首帧图提示词**：（同上 004 尾帧图提示词）
-
-**尾帧图**：`006_首帧_吃饼干.png`（待生成，与 006 首帧不同，这是 005 结束状态）
+**尾帧图**：`005a_尾帧_手拿饼干.png`（待生成）
 
 **尾帧图提示词**：
 
 ```
-Medium shot, mother sitting beside high chair on right side of frame, right hand holding a fresh golden cookie extended toward boy. Mother has cheerful encouraging expression, gentle smile. Toddler boy in high chair on left side, looking at cookie with happy excited expression, mouth slightly open, right hand reaching toward cookie. Same kitchen scene as 001. Mother wearing white off-shoulder top with yellow flower skirt, long dark wavy hair. Boy wearing blue dinosaur t-shirt, white pants. Pixar style, Disney style, 3D character render, C4D render, Blender 3D, ultra-detailed textures, soft cinematic lighting, warm cozy atmosphere, subsurface scattering, 8k resolution, masterpiece, clay style, 16:9 horizontal composition
+Wide shot, mother already squatting beside high chair on right side of frame, left hand still resting on boy's shoulder. Right arm extended toward ceramic plate of cookies on table near high chair, fingers pinching one golden cookie from the plate. Mother has warm gentle smile, looking at the plate. Toddler boy in high chair looking toward Mommy's right hand with curious expression, tears completely dried. Same kitchen scene as 001: wooden cabinets, stainless steel appliances, warm pendant lighting. Bright morning kitchen background. Mother wearing white off-shoulder top with yellow flower skirt, long dark wavy hair. Boy wearing blue dinosaur t-shirt, white pants. Pixar style, Disney style, 3D character render, C4D render, Blender 3D, ultra-detailed textures, soft cinematic lighting, warm cozy atmosphere, subsurface scattering, 8k resolution, masterpiece, clay style, 16:9 horizontal composition
 ```
 
 **视频提示词**：
 
 ```
 model: agnes-video-v2.0
-image: [首帧图 URL]
+image: [004_尾帧 URL]
 prompt: >
   严格遵循参考图像，除微小动作外不得改变角色的面部特征、发型、服装或体型。柔和的电影级光影，3D黏土风格角色，细腻的皮肤纹理，SSS次表面散射，自然布料质感；固定中景机位，位于餐桌中心略高于桌面高度，整个过程中机位、角度、景别完全锁定不变，无缩放、无推拉、无镜头抖动、无切镜；温暖明亮充满爱的早晨氛围；Pixar风格、Disney风格、C4D渲染、Blender 3D、黏土风格、杰作、8k分辨率。无背景音乐。
 
-  [0.0-1.5s：Mommy 身体完全静止，面部微笑，嘴唇动说 "Let's get a new one."，右手从身侧抬起伸向 Leo。Leo 身体完全静止，表情从好奇转为开心，眼睛跟随 Mommy 右手移动。]
-  [1.5-3.5s：Mommy 身体完全静止，右手持饼干停在 Leo 面前，面部保持微笑不说话。Leo 身体完全静止，右手抬起伸向饼干，嘴巴微微张开。]
-  [3.5-5.0s：Mommy 身体完全静止，右手持饼干保持不动。Leo 身体完全静止，右手握住饼干，表情开心满足。]
+  [0.0-1.0s：Mommy 身体完全静止，左手仍轻抚 Leo 肩膀，面部微笑。Leo 身体完全静止，表情平静期待。]
+  [1.0-3.0s：Mommy 身体完全静止，右手从身侧缓慢抬起伸向桌上盘子，手指捏住一块饼干。Leo 眼睛跟随 Mommy 右手移动，表情好奇。]
+negative_prompt: >
+  相机移动、画面偏移、机位变化、角色瞬移；角色面部特征、发型、服装的改变；口型与对话不匹配；面部扭曲变形、面部特征坍塌；卡通、动漫、手绘、油画、模糊和低质量、脏色、强光过曝；水印文字、额外杂物、肢体畸形、布料穿透模型；字幕、文字、对话浮层或对话框出现在画面中；角色突然变大。无背景音乐。
+  相机移动、缩放、平移、倾斜、抖动、变形、面部变形、多余肢体、变形手部、不良解剖、卡通、动漫、2D、素描、油画、模糊、低质量、水印、文字、字幕、气泡、尺寸突变、角色直起腰、角色离开座位、角色低头、角色闭眼
+width: 1280
+height: 720
+num_frames: 89
+frame_rate: 30
+```
+
+---
+
+### 005b｜递饼干给 Leo（4s）⭐ Leo 伸手接饼干
+
+**台词**：（无）
+
+**镜头**：中景（与 001/004 构图一致）
+
+**首帧图**：`005b_首帧_持饼递出.png`（与 005a 尾帧共用）
+
+**尾帧图**：`005b_尾帧_握手饼干.png`（待生成）
+
+**尾帧图提示词**：
+
+```
+Wide shot, mother already squatting beside high chair on right side of frame, left hand still resting on boy's shoulder. Right hand holding golden cookie extended toward boy's face, cookie positioned near boy's mouth. Mother has warm gentle smile, looking at boy. Toddler boy in high chair looking at cookie with happy excited expression, mouth slightly open, right hand reaching up to grasp the cookie. Same kitchen scene as 001: wooden cabinets, stainless steel appliances, warm pendant lighting. Bright morning kitchen background. Mother wearing white off-shoulder top with yellow flower skirt, long dark wavy hair. Boy wearing blue dinosaur t-shirt, white pants. Pixar style, Disney style, 3D character render, C4D render, Blender 3D, ultra-detailed textures, soft cinematic lighting, warm cozy atmosphere, subsurface scattering, 8k resolution, masterpiece, clay style, 16:9 horizontal composition
+```
+
+**视频提示词**：
+
+```
+model: agnes-video-v2.0
+image: [005a_尾帧 URL]
+prompt: >
+  严格遵循参考图像，除微小动作外不得改变角色的面部特征、发型、服装或体型。柔和的电影级光影，3D黏土风格角色，细腻的皮肤纹理，SSS次表面散射，自然布料质感；固定中景机位，位于餐桌中心略高于桌面高度，整个过程中机位、角度、景别完全锁定不变，无缩放、无推拉、无镜头抖动、无切镜；温暖明亮充满爱的早晨氛围；Pixar风格、Disney风格、C4D渲染、Blender 3D、黏土风格、杰作、8k分辨率。无背景音乐。
+
+  [0.0-2.0s：Mommy 身体完全静止，右手持饼干停在 Leo 面前。Leo 眼睛跟随饼干，嘴巴微微张开，表情期待。]
+  [2.0-4.0s：Mommy 身体完全静止，右手保持不动。Leo 右手慢慢抬起伸向饼干，手指接近饼干但还未握住。]
 negative_prompt: >
   相机移动、画面偏移、机位变化、角色瞬移；角色面部特征、发型、服装的改变；口型与对话不匹配；面部扭曲变形、面部特征坍塌；卡通、动漫、手绘、油画、模糊和低质量、脏色、强光过曝；水印文字、额外杂物、肢体畸形、布料穿透模型；字幕、文字、对话浮层或对话框出现在画面中；角色突然变大。无背景音乐。
   相机移动、缩放、平移、倾斜、抖动、变形、面部变形、多余肢体、变形手部、不良解剖、卡通、动漫、2D、素描、油画、模糊、低质量、水印、文字、字幕、气泡、尺寸突变、角色直起腰、角色离开座位、角色低头、角色闭眼
