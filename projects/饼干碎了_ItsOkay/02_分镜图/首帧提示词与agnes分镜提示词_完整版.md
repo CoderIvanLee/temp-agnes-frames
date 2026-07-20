@@ -282,26 +282,26 @@ frame_rate: 30
 
 ---
 
-## 007｜收拾清理（5s）⭐ 卫生教育关键镜
+## 007｜收拾清理（3s）⭐ 卫生教育关键镜
 
 **台词**：Oopsie! Let's clean up.
 
 **镜头**：中景（与 001 构图一致）
 
-**首帧图**：`007_首帧_递纸巾.png`（待生成）
+**首帧图**：`007_首帧_递纸巾_v3.png`
 
 **首帧图提示词**：
 
 ```
-Wide shot, mother sitting beside high chair on right side of frame, right hand holding a tissue paper extended toward boy. Mother has cheerful light expression, gentle smile. Toddler boy in high chair on left side, looking at tissue with curious expression, right hand reaching toward tissue. Same kitchen scene as 001. Mother wearing white off-shoulder top with yellow flower skirt, long dark wavy hair. Boy wearing blue dinosaur t-shirt, white pants. Pixar style, Disney style, 3D character render, C4D render, Blender 3D, ultra-detailed textures, soft cinematic lighting, warm cozy atmosphere, subsurface scattering, 8k resolution, masterpiece, clay style, 16:9 horizontal composition
+Wide shot, EXACT SAME composition and positions as reference image. Mother already squatting beside high chair on right side of frame, left hand still resting on boy's shoulder, body completely unchanged. On the wooden table near the ceramic plate of cookies, there is now a white tissue paper box/pack. Mother's right hand is reaching into the tissue pack, pulling out one white tissue paper. Toddler boy in high chair looking at Mommy's right hand with curious expression. The wooden high chair tray surface in front of boy still has broken cookie pieces scattered on it. Same kitchen scene, same positions. Bright morning kitchen background with wooden cabinets, stainless steel appliances, warm pendant lighting. Mother wearing white off-shoulder top with yellow flower skirt, long dark wavy hair. Boy wearing blue dinosaur t-shirt, white pants. Pixar style, Disney style, 3D character render, C4D render, Blender 3D, ultra-detailed textures, soft cinematic lighting, warm cozy atmosphere, subsurface scattering, 8k resolution, masterpiece, clay style, 16:9 horizontal composition
 ```
 
-**尾帧图**：`007_尾帧_接纸巾.png`（待生成）
+**尾帧图**：`007_尾帧_递纸巾_v3.png`
 
 **尾帧图提示词**：
 
 ```
-Wide shot, mother sitting beside high chair on right side of frame, both hands holding tissue paper extended toward boy, offering it gently. Mother has cheerful encouraging expression, gentle smile. Toddler boy in high chair on left side, right hand holding the tissue paper, expression serious and focused. Same kitchen scene as 001. Mother wearing white off-shoulder top with yellow flower skirt, long dark wavy hair. Boy wearing blue dinosaur t-shirt, white pants. Pixar style, Disney style, 3D character render, C4D render, Blender 3D, ultra-detailed textures, soft cinematic lighting, warm cozy atmosphere, subsurface scattering, 8k resolution, masterpiece, clay style, 16:9 horizontal composition
+Wide shot, EXACT SAME composition and positions as reference image. Mother already squatting beside high chair on right side of frame, left hand still resting on boy's shoulder, body completely unchanged. Right hand holding a white tissue paper extended toward boy's face, offering it to him. Mother has warm gentle smile, looking at boy. Toddler boy in high chair on left side, right hand reaching up to grasp the tissue paper from mother's hand, expression curious and ready. The wooden high chair tray surface in front of boy still has broken cookie pieces scattered on it - NOT cleaned yet. Same kitchen scene, same positions. Bright morning kitchen background with wooden cabinets, stainless steel appliances, warm pendant lighting. Mother wearing white off-shoulder top with yellow flower skirt, long dark wavy hair. Boy wearing blue dinosaur t-shirt, white pants. Pixar style, Disney style, 3D character render, C4D render, Blender 3D, ultra-detailed textures, soft cinematic lighting, warm cozy atmosphere, subsurface scattering, 8k resolution, masterpiece, clay style, 16:9 horizontal composition
 ```
 
 **视频提示词**：
@@ -318,7 +318,7 @@ negative_prompt: >
   相机移动、缩放、平移、倾斜、抖动、变形、面部变形、多余肢体、变形手部、不良解剖、卡通、动漫、2D、素描、油画、模糊、低质量、水印、文字、字幕、气泡、尺寸突变、角色直起腰、角色离开座位、角色低头、角色闭眼
 width: 1280
 height: 720
-num_frames: 121
+num_frames: 89
 frame_rate: 30
 ```
 
@@ -330,15 +330,15 @@ frame_rate: 30
 
 **镜头**：中景（与 007 构图一致）
 
-**首帧图**：`008_首帧_擦碎屑.png`（待生成，以 `007_尾帧_递纸巾_v3.png` 为参考）
+**首帧图**：`008_首帧_擦碎屑.png`（以 `007_尾帧_递纸巾_v3.png` 为参考）
 
 **首帧图提示词**：
 
 ```
-Wide shot, EXACT SAME composition and positions as reference image. Mother already squatting beside high chair on right side of frame, left hand still resting on boy's shoulder, body completely unchanged. Right hand holding tissue paper extended downward toward the wooden high chair tray surface, beginning to wipe broken cookie pieces. Toddler boy in high chair on left side, right hand holding tissue paper wiping the wooden tray surface, moving it back and forth to clean broken cookie pieces. Boy has serious concentrated expression, eyebrows slightly furrowed, eyes focused on task. The wooden high chair tray surface still has broken cookie pieces scattered on it being wiped away. Same kitchen scene, same positions. Bright morning kitchen background with wooden cabinets, stainless steel appliances, warm pendant lighting. Mother wearing white off-shoulder top with yellow flower skirt, long dark wavy hair. Boy wearing blue dinosaur t-shirt, white pants. Pixar style, Disney style, 3D character render, C4D render, Blender 3D, ultra-detailed textures, soft cinematic lighting, warm cozy atmosphere, subsurface scattering, 8k resolution, masterpiece, clay style, 16:9 horizontal composition
+Wide shot, EXACT SAME composition and positions as reference image. Mother already squatting beside high chair on right side of frame, left hand still resting on boy's shoulder, body completely unchanged. Right hand holding white tissue paper extended downward toward the wooden high chair tray surface, beginning to wipe broken cookie pieces. Toddler boy in high chair on left side, right hand holding tissue paper wiping the wooden tray surface, moving it back and forth to clean broken cookie pieces. Boy has serious concentrated expression, eyebrows slightly furrowed, eyes focused on task. The wooden high chair tray surface still has broken cookie pieces scattered on it being wiped away. Same kitchen scene, same positions. Bright morning kitchen background with wooden cabinets, stainless steel appliances, warm pendant lighting. Mother wearing white off-shoulder top with yellow flower skirt, long dark wavy hair. Boy wearing blue dinosaur t-shirt, white pants. Pixar style, Disney style, 3D character render, C4D render, Blender 3D, ultra-detailed textures, soft cinematic lighting, warm cozy atmosphere, subsurface scattering, 8k resolution, masterpiece, clay style, 16:9 horizontal composition
 ```
 
-**尾帧图**：`008_尾帧_开心.png`（待生成）
+**尾帧图**：`008_尾帧_开心.png`
 
 **尾帧图提示词**：
 
@@ -371,22 +371,22 @@ frame_rate: 30
 
 **台词**：Good job, buddy! High five! / High five!
 
-**镜头**：中景（与 001 构图一致）
+**镜头**：中景（与 008 构图一致）
 
-**首帧图**：`009_首帧_击掌_v2.png`
+**首帧图**：`009_首帧_击掌_v3.png`
 
 **首帧图提示词**：
 
 ```
-Wide shot, EXACT SAME composition and positions as reference image. Mother already squatting beside high chair on right side of frame, body completely unchanged. Right hand raised with palm facing forward, fingers together and extended upward, ready to high five. Mother has proud smiling expression, looking at boy. Toddler boy in high chair on left side, right hand raised slightly toward mother's open palm but not yet touching. Boy has proud happy expression, big smile, eyes sparkling. The wooden high chair tray surface is now CLEAN - no broken cookie pieces or crumbs visible. Same kitchen scene, same positions. Bright morning kitchen background with wooden cabinets, stainless steel appliances, warm pendant lighting. Mother wearing white off-shoulder top with yellow flower skirt, long dark wavy hair. Boy wearing blue dinosaur t-shirt, white pants. Pixar style, Disney style, 3D character render, C4D render, Blender 3D, ultra-detailed textures, soft cinematic lighting, warm cozy atmosphere, subsurface scattering, 8k resolution, masterpiece, clay style, 16:9 horizontal composition
+Wide shot, EXACT SAME composition and positions as reference image. Mother already squatting beside high chair on right side of frame, body completely unchanged. Right hand raised with open palm facing forward, fingers together and extended upward, ready to high five. Mother has proud smiling expression, looking at boy. Toddler boy in high chair on left side, right hand raised slightly toward mother's open palm but not yet touching. Boy has proud happy expression, big smile, eyes sparkling. The wooden high chair tray surface is now CLEAN - no broken cookie pieces or crumbs visible. Same kitchen scene, same positions. Bright morning kitchen background with wooden cabinets, stainless steel appliances, warm pendant lighting. Mother wearing white off-shoulder top with yellow flower skirt, long dark wavy hair. Boy wearing blue dinosaur t-shirt, white pants. Pixar style, Disney style, 3D character render, C4D render, Blender 3D, ultra-detailed textures, soft cinematic lighting, warm cozy atmosphere, subsurface scattering, 8k resolution, masterpiece, clay style, 16:9 horizontal composition
 ```
 
-**尾帧图**：`009_尾帧_击掌_v2.png`
+**尾帧图**：`009_尾帧_击掌_v4.png`
 
 **尾帧图提示词**：
 
 ```
-Wide shot, EXACT SAME composition and positions as reference image. Mother already squatting beside high chair on right side of frame, body completely unchanged. Right hand raised with open palm facing forward, fingers together and extended upward, now making contact with boy's open palm in a high five gesture. Mother has proud happy expression, big smile looking at boy. Toddler boy in high chair on left side, right hand raised higher now fully touching mother's open palm, completing the high five. Boy has proud happy expression, big smile, eyes sparkling with accomplishment. The wooden high chair tray surface is CLEAN - no broken cookie pieces or crumbs visible. Same kitchen scene, same positions. Bright morning kitchen background with wooden cabinets, stainless steel appliances, warm pendant lighting. Mother wearing white off-shoulder top with yellow flower skirt, long dark wavy hair. Boy wearing blue dinosaur t-shirt, white pants. Pixar style, Disney style, 3D character render, C4D render, Blender 3D, ultra-detailed textures, soft cinematic lighting, warm cozy atmosphere, subsurface scattering, 8k resolution, masterpiece, clay style, 16:9 horizontal composition
+Wide shot, EXACT SAME composition and positions as reference image. Mother already squatting beside high chair on right side of frame, body completely unchanged. Right hand raised with open palm facing forward, fingers together and extended upward, now making contact with boy's open palm in a completed high five gesture. Mother has proud happy expression, big smile looking at boy. Toddler boy in high chair on left side, right hand raised higher now fully touching mother's open palm, completing the high five. Boy has proud happy expression, big smile, eyes sparkling with accomplishment. The wooden high chair tray surface is CLEAN - no broken cookie pieces or crumbs visible. Same kitchen scene, same positions. Bright morning kitchen background with wooden cabinets, stainless steel appliances, warm pendant lighting. Mother wearing white off-shoulder top with yellow flower skirt, long dark wavy hair. Boy wearing blue dinosaur t-shirt, white pants. Pixar style, Disney style, 3D character render, C4D render, Blender 3D, ultra-detailed textures, soft cinematic lighting, warm cozy atmosphere, subsurface scattering, 8k resolution, masterpiece, clay style, 16:9 horizontal composition
 ```
 
 **视频提示词**：
@@ -421,9 +421,9 @@ frame_rate: 30
 | 005a | 3s | 中景 | `004_尾帧_安慰平静_v1.png` → `005a_尾帧_手拿饼干.png` | Mommy 伸手拿饼干 |
 | 005b | 1s | 中景 | `005a_尾帧_手拿饼干.png` → `005b_尾帧_握手饼干_v2.png` | Leo 伸手接饼干 |
 | 006 | 2s | 特写 | `006_首帧_吃饼干.png` → `006_尾帧_开心.png` | Mommy 吃饼干 + 开心 |
-| 007 | 5s | 中景 | `007_首帧_递纸巾.png` → `007_尾帧_接纸巾.png` | 递纸巾教清理 |
+| 007 | 3s | 中景 | `007_首帧_递纸巾_v3.png` → `007_尾帧_递纸巾_v3.png` | 递纸巾教清理 |
 | 008 | 3s | 中景 | `007_尾帧_递纸巾_v3.png` → `008_尾帧_开心.png` | Leo 擦碎屑 + 开心 |
-| 009 | 5s | 中景 | `009_首帧_击掌.png` | 击掌庆祝 |
+| 009 | 5s | 中景 | `009_首帧_击掌_v3.png` → `009_尾帧_击掌_v4.png` | 击掌庆祝 |
 
 **通用规则：**
 - **中景**：用于需要展示两人互动、动作变化的场景（001/004/005/007/008/009）
@@ -449,11 +449,12 @@ frame_rate: 30
 | 005b 尾帧 | `005b_尾帧_握手饼干_v2.png` | 005b 视频尾帧 |
 | 006 首帧 | `006_首帧_吃饼干.png` | 006 视频首帧 |
 | 006 尾帧 | `006_尾帧_开心.png` | 006 视频尾帧 |
-| 007 首帧 | `007_首帧_递纸巾.png` | 待生成 |
-| 007 尾帧 | `007_尾帧_接纸巾.png` | 待生成 |
-| 008 首帧 | `008_首帧_擦碎屑.png` | 待生成 |
-| 008 尾帧 | `008_尾帧_开心.png` | 待生成 |
-| 009 首帧 | `009_首帧_击掌.png` | 待生成 |
+| 007 首帧 | `007_首帧_递纸巾_v3.png` | 007 视频首帧 |
+| 007 尾帧 | `007_尾帧_递纸巾_v3.png` | 007 视频尾帧 |
+| 008 首帧 | `008_首帧_擦碎屑.png` | 008 视频首帧 |
+| 008 尾帧 | `008_尾帧_开心.png` | 008 视频尾帧 |
+| 009 首帧 | `009_首帧_击掌_v3.png` | 009 视频首帧 |
+| 009 尾帧 | `009_尾帧_击掌_v4.png` | 009 视频尾帧 |
 
 ---
 
