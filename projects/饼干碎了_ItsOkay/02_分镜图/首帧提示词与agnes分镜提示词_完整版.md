@@ -354,8 +354,8 @@ image: [首帧图 URL]
 prompt: >
   严格遵循参考图像，除微小动作外不得改变角色的面部特征、发型、服装或体型。柔和的电影级光影，3D黏土风格角色，细腻的皮肤纹理，SSS次表面散射，自然布料质感；固定中景机位，位于餐桌中心略高于桌面高度，整个过程中机位、角度、景别完全锁定不变，无缩放、无推拉、无镜头抖动、无切镜；温暖明亮充满爱的早晨氛围；Pixar风格、Disney风格、C4D渲染、Blender 3D、黏土风格、杰作、8k分辨率。无背景音乐。
 
-  [0.0-1.5s：Mommy 身体躯干和头部完全静止，左手仍轻抚 Leo 肩膀，面部保持专注微笑，嘴唇动说 "Bye-bye crumbs!"。仅右手持白色纸巾缓慢向下移动擦拭高脚椅餐盘上的饼干碎屑，纸巾经过之处饼干碎屑逐渐消失。Leo 身体完全静止，面部保持认真表情，仅右手持纸巾在餐盘上缓慢来回擦拭，饼干碎屑随纸巾移动逐渐减少并消失。]
-  [1.5-3.0s：Mommy 身体完全静止，双手持用过的纸巾保持原位，面部保持微笑看着 Leo。Leo 身体完全静止，右手将纸巾揉成一团并缓缓举起，表情从认真转为开心自豪。高脚椅餐盘表面已清理干净，无饼干碎屑残留。]
+  [0.0-1.5s：Mommy 身体躯干、头部、左手全部完全静止不动，面部保持专注微笑，嘴唇动说 "Bye-bye crumbs!"。仅右手持白色纸巾缓慢向下移动擦拭高脚椅餐盘上的饼干碎屑，纸巾经过之处饼干碎屑逐渐消失。Leo 身体躯干、头部、左手全部完全静止不动，面部保持认真表情。仅右手持纸巾在餐盘上缓慢来回擦拭，饼干碎屑随纸巾移动逐渐减少并消失。]
+  [1.5-3.0s：Mommy 身体躯干、头部、双手全部完全静止不动，双手持用过的纸巾保持原位，面部保持微笑看着 Leo。Leo 身体躯干、头部、左手全部完全静止不动，右手将纸巾揉成一团并缓缓举起，表情从认真转为开心自豪。高脚椅餐盘表面已清理干净，无饼干碎屑残留。]
 negative_prompt: >
   相机移动、画面偏移、机位变化、角色瞬移；角色面部特征、发型、服装的改变；口型与对话不匹配；面部扭曲变形、面部特征坍塌；卡通、动漫、手绘、油画、模糊和低质量、脏色、强光过曝；水印文字、额外杂物、肢体畸形、布料穿透模型；字幕、文字、对话浮层或对话框出现在画面中；角色突然变大。无背景音乐。
   相机移动、缩放、平移、倾斜、抖动、变形、面部变形、多余肢体、变形手部、不良解剖、卡通、动漫、2D、素描、油画、模糊、低质量、水印、文字、字幕、气泡、尺寸突变、角色直起腰、角色离开座位、角色低头、角色闭眼
@@ -373,15 +373,21 @@ frame_rate: 30
 
 **镜头**：中景（与 001 构图一致）
 
-**首帧图**：`009_首帧_击掌.png`（待生成）
+**首帧图**：`009_首帧_击掌_v2.png`
 
 **首帧图提示词**：
 
 ```
-Wide shot, mother sitting beside high chair on right side of frame, right hand raised with thumb up in a thumbs-up gesture. Mother has proud smiling expression. Toddler boy in high chair on left side, right hand raised slightly toward mother's hand but not yet touching. Boy has proud happy expression, big smile. Same kitchen scene as 001. Mother wearing white off-shoulder top with yellow flower skirt, long dark wavy hair. Boy wearing blue dinosaur t-shirt, white pants. Pixar style, Disney style, 3D character render, C4D render, Blender 3D, ultra-detailed textures, soft cinematic lighting, warm cozy atmosphere, subsurface scattering, 8k resolution, masterpiece, clay style, 16:9 horizontal composition
+Wide shot, EXACT SAME composition and positions as reference image. Mother already squatting beside high chair on right side of frame, body completely unchanged. Right hand raised with palm facing forward, fingers together and extended upward, ready to high five. Mother has proud smiling expression, looking at boy. Toddler boy in high chair on left side, right hand raised slightly toward mother's open palm but not yet touching. Boy has proud happy expression, big smile, eyes sparkling. The wooden high chair tray surface is now CLEAN - no broken cookie pieces or crumbs visible. Same kitchen scene, same positions. Bright morning kitchen background with wooden cabinets, stainless steel appliances, warm pendant lighting. Mother wearing white off-shoulder top with yellow flower skirt, long dark wavy hair. Boy wearing blue dinosaur t-shirt, white pants. Pixar style, Disney style, 3D character render, C4D render, Blender 3D, ultra-detailed textures, soft cinematic lighting, warm cozy atmosphere, subsurface scattering, 8k resolution, masterpiece, clay style, 16:9 horizontal composition
 ```
 
-**尾帧图**：无（视频定格在击掌画面结束）
+**尾帧图**：`009_尾帧_击掌_v2.png`
+
+**尾帧图提示词**：
+
+```
+Wide shot, EXACT SAME composition and positions as reference image. Mother already squatting beside high chair on right side of frame, body completely unchanged. Right hand raised with open palm facing forward, fingers together and extended upward, now making contact with boy's open palm in a high five gesture. Mother has proud happy expression, big smile looking at boy. Toddler boy in high chair on left side, right hand raised higher now fully touching mother's open palm, completing the high five. Boy has proud happy expression, big smile, eyes sparkling with accomplishment. The wooden high chair tray surface is CLEAN - no broken cookie pieces or crumbs visible. Same kitchen scene, same positions. Bright morning kitchen background with wooden cabinets, stainless steel appliances, warm pendant lighting. Mother wearing white off-shoulder top with yellow flower skirt, long dark wavy hair. Boy wearing blue dinosaur t-shirt, white pants. Pixar style, Disney style, 3D character render, C4D render, Blender 3D, ultra-detailed textures, soft cinematic lighting, warm cozy atmosphere, subsurface scattering, 8k resolution, masterpiece, clay style, 16:9 horizontal composition
+```
 
 **视频提示词**：
 
@@ -391,8 +397,8 @@ image: [首帧图 URL]
 prompt: >
   严格遵循参考图像，除微小动作外不得改变角色的面部特征、发型、服装或体型。柔和的电影级光影，3D黏土风格角色，细腻的皮肤纹理，SSS次表面散射，自然布料质感；固定中景机位，位于餐桌中心略高于桌面高度，整个过程中机位、角度、景别完全锁定不变，无缩放、无推拉、无镜头抖动、无切镜；温暖明亮充满爱的早晨氛围；Pixar风格、Disney风格、C4D渲染、Blender 3D、黏土风格、杰作、8k分辨率。无背景音乐。
 
-  [0.0-2.0s：Mommy 身体完全静止，面部骄傲微笑，嘴唇动说 "Good job, buddy!"，右手竖起大拇指。Leo 身体完全静止，表情开心，右手慢慢抬起伸向 Mommy 的手。]
-  [2.0-5.0s：Mommy 身体完全静止，面部保持骄傲微笑，嘴唇动说 "High five!"，右手保持竖起大拇指。Leo 身体完全静止，右手与 Mommy 的手接近但未接触，表情幸福满足，呼吸微微起伏。]
+  [0.0-2.5s：Mommy 身体躯干、头部、左手全部完全静止不动，面部保持骄傲微笑，嘴唇动说 "Good job, buddy!"。仅右手保持张开手掌竖起的姿势，手指并拢向上，等待击掌。Leo 身体躯干、头部、左手全部完全静止不动，表情开心，仅右手慢慢抬起伸向 Mommy 的手掌。]
+  [2.5-5.0s：Mommy 身体躯干、头部、左手全部完全静止不动，面部保持骄傲微笑，嘴唇动说 "High five!"。仅右手张开手掌缓缓靠近 Leo 的手掌完成击掌。Leo 身体躯干、头部、左手全部完全静止不动，仅右手缓缓抬起与 Mommy 的手掌接触完成击掌。击掌完成后双手保持接触位置静止不动。]
 negative_prompt: >
   相机移动、画面偏移、机位变化、角色瞬移；角色面部特征、发型、服装的改变；口型与对话不匹配；面部扭曲变形、面部特征坍塌；卡通、动漫、手绘、油画、模糊和低质量、脏色、强光过曝；水印文字、额外杂物、肢体畸形、布料穿透模型；字幕、文字、对话浮层或对话框出现在画面中；角色突然变大。无背景音乐。
   相机移动、缩放、平移、倾斜、抖动、变形、面部变形、多余肢体、变形手部、不良解剖、卡通、动漫、2D、素描、油画、模糊、低质量、水印、文字、字幕、气泡、尺寸突变、角色直起腰、角色离开座位、角色低头、角色闭眼
