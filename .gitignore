@@ -22,3 +22,4 @@ __pycache__/
 # Only track specific validated key frames
 !projects/饼干碎了_ItsOkay/02_分镜图/关键帧/001_Mommy_Leo_递饼干_首帧_v1.png
 !projects/饼干碎了_ItsOkay/02_分镜图/关键帧/002_Leo_掉饼干_首帧_v1.png
+!projects/歌曲/我自己来/02_分镜图/关键帧/*.png
